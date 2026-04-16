@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Games | Play Free Online Games</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    body {
+      background: #f5f7fa;
+      color: #333;
+    }
+    nav {
+      background: #2c3e50;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 99;
+    }
+    .logo { font-size: 1.5rem; font-weight: bold; }
+    .nav-links a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .nav-links a:hover { color: #3498db; }
+    .hero {
+      background: linear-gradient(to right, #3498db, #2980b9);
+      color: white;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+    .btn {
+      background: white;
+      color: #2980b9;
+      padding: 0.8rem 2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .btn:hover { background: #f0f0f0; }
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section-title {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 1.8rem;
+      color: #2c3e50;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .game-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .game-card:hover { transform: translateY(-5px); }
+    .game-img {
+      width: 100%;
+      height: 180px;
+      background: #ddd;
+      object-fit: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: #666;
+    }
+    .game-info { padding: 1rem; }
+    .game-title { font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .game-desc {
+      color: #666;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .play-btn {
+      background: #3498db;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+<nav>
+  <div class="logo">FunGames</div>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="#games">Games</a>
+    <a href="login.html">Login</a>
+    <a href="rank.html">Rank</a>
+    <a href="admin.html">Admin</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1>Play Free Online Games</h1>
+  <p>Enjoy hundreds of fun, casual, and exciting games directly in your browser. No downloads, no installations.</p>
+  <a href="#games" class="btn">Browse Games</a>
+</section>
+
+<div class="container" id="games">
+  <h2 class="section-title">Popular Games</h2>
+  <div class="games-grid">
+    <div class="game-card">
+      <div class="game-img">PUZZLE</div>
+      <div class="game-info">
+        <h3 class="game-title">Block Puzzle</h3>
+        <p class="game-desc">Classic jigsaw puzzle game.</p>
+        <a href="puzzle.html" class="play-btn">Play Now</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <div class="game-img">2048</div>
+      <div class="game-info">
+        <h3 class="game-title">2048 Game</h3>
+        <p class="game-desc">Merge numbers to reach 2048!</p>
+        <a href="2048.html" class="play-btn">Play Now</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <div class="game-img">SNAKE</div>
+      <div class="game-info">
+        <h3 class="game-title">Snake Game</h3>
+        <p class="game-desc">Classic arcade snake game.</p>
+        <a href="snake.html" class="play-btn">Play Now</a>
+      </div>
+    </div>
+    <div class="game-card">
+      <div class="game-img">MATCH</div>
+      <div class="game-info">
+        <h3 class="game-title">Match 3</h3>
+        <p class="game-desc">Match 3 or more same items.</p>
+        <a href="match3.html" class="play-btn">Play Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 FunGames. All rights reserved.</p>
+  <p>Play free online games every day!</p>
+</footer>
+</body>
+</html>

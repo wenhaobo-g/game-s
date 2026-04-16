@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leaderboard</title>
+  <style>
+    body{background:#f5f7fa;font-family:Arial;max-width:600px;margin:40px auto;padding:20px;}
+    .item{background:white;padding:15px;margin:10px 0;border-radius:8px;display:flex;justify-content:space-between;}
+    h1{text-align:center;color:#2c3e50;}
+  </style>
+</head>
+<body>
+  <h1>Leaderboard</h1>
+  <div class="item"><span>1. player1</span><span>2850</span></div>
+  <div class="item"><span>2. player2</span><span>2430</span></div>
+  <div class="item"><span>3. player3</span><span>1920</span></div>
+  <div class="item"><span>4. player4</span><span>1560</span></div>
+  <div class="item"><span>5. player5</span><span>1120</span></div>
+</body>
+</html>
